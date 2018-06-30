@@ -1,0 +1,187 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: brown;
+}
+
+.cat {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.feline {
+    display: block;
+}
+
+.head, 
+.lower_body {
+	 background-color: brown;
+}
+
+.left_ear {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid brown;
+    margin-left: 65px;    
+    margin-bottom: -30px;
+    transform: rotate(-30deg);
+}
+
+.right_ear {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid brown;
+    margin-left: 177px;  
+    margin-bottom: -22px;
+    transform: rotate(30deg);
+}
+
+.right_ear:hover {
+    transform: rotate(20deg);
+}
+
+.left_ear:hover {
+    transform: rotate(-40deg);
+}
+
+.nose {
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid tomato;
+    position: absolute;
+    top: 195px;
+    margin-left: 120px;
+    z-index: 1000;
+    background-color: ;
+}
+
+.whisker {
+    width: 110px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    position: absolute;
+}
+
+.whisker_1 {
+    transform: rotate(13deg);
+    top: 150px;
+    margin-left: 35px;
+}
+
+.whisker_2 {
+    transform: rotate(11deg); 
+    top: 163px;
+    margin-left: 53px;
+}
+
+.whisker_3 {
+    transform: rotate(9deg); 
+    top: 168px;
+    margin-left: 40px;
+}
+
+.whisker_4 {
+    transform: rotate(-13deg);
+    top: 150px;
+    margin-left: 150px;
+}
+
+.whisker_5 {
+    transform: rotate(-11deg);
+    top: 160px;
+    margin-left: 150px;
+}
+
+.whisker_6 {
+    transform: rotate(-9deg);
+    top: 168px;
+    margin-left: 150px;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 200px; 
+    border-radius: 100px;
+} 
+
+.body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	margin: 0 auto;
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 50px 50px 50px 50px;
+    margin-left: 50px;
+    position: absolute;
+    top: 250px;
+} 
+
+.tail {
+    width: 200px; 
+    height: 50px;  
+    border: solid 15px brown;
+    border-color: transparent brown brown brown;
+    border-radius: 0 0 100px 0;
+    position: relative;
+    left: 135px;
+    top: 60px;
+}
+
+.tail:hover {
+    transform:rotate(-5deg);
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;
+} 
+
+.left_eye { 
+	position: relative; 
+	top: 75px; 
+	left: 50px; 
+    background-color: yellowgreen;
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 42px; 
+	left: 130px; 
+    background-color: yellowgreen;
+}
+
+.left_iris {
+    height: 17px;
+    width: 7px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 57px;
+    left: 56px;
+    z-index: 300;
+}
+
+.right_iris {
+    height: 17px;
+    width: 7px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+    left: 137px;
+    z-index: 300;
+}
